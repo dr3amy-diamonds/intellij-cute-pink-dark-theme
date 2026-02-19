@@ -1,51 +1,91 @@
 {
-  "name": "Cute Pink Dark",
-  "dark": true,
-  "author": "Ingo Steinke (openmindculture)",
-  "editorScheme": "/cute_pink_dark.xml",
-  "colors": {
-    "blackBg": "#000000",
-    "whiteBg": "#FFFFFF",
-    "pinkDeepBg": "#F14874",
-    "whiteText": "#FFFFFF",
-    "pinkLight": "#FCEAF1",
-    "pinkLightBg": "#FCEAF1",
-    "pinkMediumBg": "#FCDEE9",
-    "pinkDarkBg": "#F4B4CC",
-    "pinkDarkerBg": "#763F56",
-    "purpleLightText": "#A192AB",
-    "purpleMediumText": "#826585",
-    "purpleDarkText": "#2A035B",
-    "purpleRedBorder": "#F14874",
-    "purpleRedFocusRect": "#F26D90"
-  },
-  "ui": {
-    "*": {
-      "background": "pinkDarkerBg",
-      "selectedBackground": "pinkMediumBg",
-      "hoverBackground": "pinkDarkBg",
-      "foreground": "pinkLight",
-      "disabledText": "purpleLightText",
-      "selectionBackground": "pinkDeepBg",
-      "selectionForeground": "pinkLight",
-      "underlineColor": "purpleRedBorder",
-      "errorFocusColor": "purpleRedFocusRect"
-    },
-    "Editor.background": "blackBg",
-    "Button.default.foreground": "pinkLight",
-    "Borders": {
-      "color": "purpleRedBorder",
-      "ContrastBorderColor": "purpleRedBorder"
-    },
-    "Panel.foreground": "purpleDarkText",
-    "Panel.foreground.hover": "purpleDarkText",
-    "Panel.hoverForeground": "purpleDarkText",
-    "ScrollPane.background": "whiteBg",
-    "ScrollPane.foreground": "purpleDarkText",
-    "TextArea.foreground": "purpleDarkText",
-    "TextField.background": "whiteBg",
-    "TextField.foreground": "purpleDarkText",
-    "TextField.inactiveForeground": "purpleDarkText",
-    "Viewport.foreground": "purpleDarkText"
-  }
+        "name": "Dark Sakura 2.0",
+        "dark": true,
+        "author": "Valentina",
+        "editorScheme": "/cute_pink_dark.xml",
+        "colors": {
+                "cleanDarkBg": "#141018",
+                "cleanDarkerBg": "#16121c",
+                "cleanGray": "#1c1622",
+                "cleanBorder": "#2a1e30",
+                "sakuraPink": "#ff77aa",
+                "sakuraPinkHover": "#ff9ecb",
+                "softWhite": "#d5d0c9",
+                "subtleText": "#8c7a85",
+                "selectionBg": "#2a1e30"
+        },
+        "ui": {
+                "*": {
+                        "background": "cleanDarkBg",
+                        "foreground": "softWhite",
+                        "borderColor": "cleanBorder",
+                        "separatorColor": "cleanBorder",
+                        "selectionBackground": "selectionBg",
+                        "selectionForeground": "sakuraPink"
+                },
+                "Borders": {
+                        "color": "cleanBorder",
+                        "ContrastBorderColor": "cleanBorder"
+                },
+                "Tree": {
+                        "background": "cleanDarkBg",
+                        "selectionBackground": "selectionBg",
+                        "foreground": "softWhite",
+                        "selectionForeground": "sakuraPink"
+                },
+                "Panel": {
+                        "background": "cleanDarkBg"
+                },
+                "Viewport": {
+                        "background": "cleanDarkBg"
+                },
+                "Editor": {
+                        "background": "cleanDarkBg"
+                },
+                "Tabs": {
+                        "background": "cleanDarkerBg",
+                        "hoverBackground": "cleanGray",
+                        "unselectedBackground": "cleanDarkerBg",
+                        "borderColor": "cleanBorder",
+                        "underlineColor": "sakuraPink"
+                },
+                "ToolWindow": {
+                        "background": "cleanDarkBg",
+                        "Header": {
+                                "background": "cleanDarkerBg",
+                                "inactiveBackground": "cleanDarkerBg"
+                        }
+                },
+                "Button": {
+                        "startBackground": "cleanGray",
+                        "endBackground": "cleanGray",
+                        "startBorderColor": "cleanBorder",
+                        "endBorderColor": "cleanBorder",
+                        "foreground": "softWhite",
+                        "focusedBorderColor": "sakuraPink",
+                        "default": {
+                                "startBackground": "cleanGray",
+                                "endBackground": "cleanGray",
+                                "foreground": "sakuraPink",
+                                "focusedBorderColor": "sakuraPink"
+                        }
+                },
+                "ProgressBar": {
+                        "trackColor": "cleanGray",
+                        "progressColor": "sakuraPink"
+                },
+                "Component": {
+                        "focusColor": "sakuraPink",
+                        "borderColor": "cleanBorder"
+                }
+        },
+        "icons": {
+                "ColorPalette": {
+                        "Actions.Grey": "#8c7a85",
+                        "Actions.Red": "#c0548f",
+                        "Actions.Yellow": "#ff9ecb",
+                        "Actions.Green": "#ff77aa",
+                        "Actions.Blue": "#c0548f"
+                }
+        }
 }

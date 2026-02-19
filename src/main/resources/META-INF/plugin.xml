@@ -1,21 +1,18 @@
-<idea-plugin url="https://github.com/openmindculture/intellij-cute-pink-dark-theme">
-    <name>Cute Pink Dark Theme</name>
-    <id>com.github.openmindculture.intellijcutepinkdarktheme</id>
-    <description>Cute Pink Dark Theme for IntelliJ Platform is the dark variant of Cute Pink Light Theme.</description>
-    <change-notes>Initial theme release. Basic theme functionality.</change-notes>
-    <version>0.9.1</version>
-    <vendor url="https://github.com/openmindculture/">Ingo Steinke (openmindculture)</vendor>
+<idea-plugin url="https://github.com/dr3amy-diamonds/intellij-cute-pink-dark-theme">
+    <name>Cute Pink Dark (Val Version)</name>
 
-    <!-- Compatible with the following versions of IntelliJ Platform:
-      version 2020.2 and newer. -->
+    <id>com.github.dr3amydiamonds.cutepinkdarktheme</id>
+
+    <description>Version personalizada por Valentina del Cute Pink Dark Theme.</description>
+    <change-notes>Ajustes de contraste y paleta Dark Sakura.</change-notes>
+    <version>1.0.0</version>
+    <vendor url="https://github.com/dr3amy-diamonds">Valentina</vendor>
+
     <idea-version since-build="202" />
 
-    <!-- Product and plugin compatibility requirements -->
-    <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
-    <!-- Indicate this plugin can be loaded in all IntelliJ Platform-based products. -->
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="org.jetbrains.plugins.cute_pink_darktheme" path="/cute_pink_dark.theme.json"/>
+        <themeProvider id="org.jetbrains.plugins.cute_pink_darktheme_val" path="/cute_pink_dark.theme.json"/>
     </extensions>
 </idea-plugin>

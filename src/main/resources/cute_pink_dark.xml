@@ -1,14 +1,133 @@
 <scheme name="cute_pink_dark" version="142" parent_scheme="Darcula">
-    <colors>
-        <option name="BACKGROUND" value="4A0016" />
-        <option name="GUTTER_BACKGROUND" value="800E34" />
-    </colors>
-    <attributes>
-        <option name="TEXT">
-            <value>
-                <option name="BACKGROUND" value="4A0016" />
-                <option name="FOREGROUND" value="FCEAF1" />
-            </value>
-        </option>
-    </attributes>
+        <option name="FONT_SCALE" value="1.0" />
+        <metaInfo>
+                <property name="created">2026-02-18T16:00:00</property>
+                <property name="ide">idea</property>
+                <property name="ideVersion">2024.1.0.0</property>
+                <property name="originalScheme">Cute Pink Dark Val's Version</property>
+        </metaInfo>
+        <colors>
+                <option name="CARET_COLOR" value="ff77aa" />
+                <option name="CARET_ROW_COLOR" value="1c1622" />
+                <option name="CONSOLE_BACKGROUND_KEY" value="141018" />
+                <option name="GUTTER_BACKGROUND" value="141018" />
+                <option name="INDENT_GUIDE" value="2a1e30" />
+                <option name="LINE_NUMBERS_COLOR" value="5c4b54" />
+                <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="ff77aa" />
+                <option name="SELECTED_INDENT_GUIDE" value="ff77aa" />
+                <option name="SELECTION_BACKGROUND" value="2a1e30" />
+                <option name="VISUAL_INDENT_GUIDE" value="2a1e30" />
+        </colors>
+        <attributes>
+                <option name="DEFAULT_BLOCK_COMMENT">
+                        <value>
+                                <option name="FOREGROUND" value="8c7a85" />
+                        </value>
+                </option>
+                <option name="DEFAULT_CLASS_NAME">
+                        <value>
+                                <option name="FOREGROUND" value="ff9ecb" />
+                        </value>
+                </option>
+                <option name="DEFAULT_FUNCTION_DECLARATION">
+                        <value>
+                                <option name="FOREGROUND" value="ff77aa" />
+                        </value>
+                </option>
+                <option name="DEFAULT_FUNCTION_CALL">
+                        <value>
+                                <option name="FOREGROUND" value="ff77aa" />
+                        </value>
+                </option>
+                <option name="DEFAULT_KEYWORD">
+                        <value>
+                                <option name="FOREGROUND" value="c0548f" />
+                        </value>
+                </option>
+                <option name="DEFAULT_LINE_COMMENT">
+                        <value>
+                                <option name="FOREGROUND" value="8c7a85" />
+                        </value>
+                </option>
+                <option name="DEFAULT_NUMBER">
+                        <value>
+                                <option name="FOREGROUND" value="c0548f" />
+                        </value>
+                </option>
+                <option name="DEFAULT_STRING">
+                        <value>
+                                <option name="FOREGROUND" value="ff9ecb" />
+                        </value>
+                </option>
+                <option name="DEFAULT_OPERATION_SIGN">
+                        <value>
+                                <option name="FOREGROUND" value="ff77aa" />
+                        </value>
+                </option>
+                <option name="TEXT">
+                        <value>
+                                <option name="FOREGROUND" value="d5d0c9" />
+                                <option name="BACKGROUND" value="141018" />
+                        </value>
+                </option>
+                <option name="MARKDOWN_AUTO_LINK">
+                        <value>
+                                <option name="FOREGROUND" value="ff77aa" />
+                                <option name="EFFECT_TYPE" value="1" />
+                        </value>
+                </option>
+                <option name="MARKDOWN_BLOCK_QUOTE">
+                        <value>
+                                <option name="FOREGROUND" value="8c7a85" />
+                        </value>
+                </option>
+                <option name="MARKDOWN_CODE_BLOCK">
+                        <value>
+                                <option name="BACKGROUND" value="1c1622" />
+                        </value>
+                </option>
+                <option name="MARKDOWN_CODE_FENCE">
+                        <value>
+                                <option name="BACKGROUND" value="1c1622" />
+                        </value>
+                </option>
+                <option name="MARKDOWN_CODE_SPAN">
+                        <value>
+                                <option name="FOREGROUND" value="ff9ecb" />
+                                <option name="BACKGROUND" value="1c1622" />
+                        </value>
+                </option>
+                <option name="MARKDOWN_HEADER_LEVEL_1">
+                        <value>
+                                <option name="FOREGROUND" value="ff77aa" />
+                                <option name="FONT_TYPE" value="1" />
+                        </value>
+                </option>
+                <option name="MARKDOWN_HEADER_LEVEL_2">
+                        <value>
+                                <option name="FOREGROUND" value="ff77aa" />
+                                <option name="FONT_TYPE" value="1" />
+                        </value>
+                </option>
+                <option name="MARKDOWN_HEADER_LEVEL_3">
+                        <value>
+                                <option name="FOREGROUND" value="ff77aa" />
+                        </value>
+                </option>
+                <option name="MARKDOWN_HRULE">
+                        <value>
+                                <option name="FOREGROUND" value="c0548f" />
+                        </value>
+                </option>
+                <option name="MARKDOWN_INLINE_HTML">
+                        <value>
+                                <option name="FOREGROUND" value="ff77aa" />
+                        </value>
+                </option>
+                <option name="MARKDOWN_LINK_DESTINATION">
+                        <value>
+                                <option name="FOREGROUND" value="c0548f" />
+                        </value>
+                </option>
+        </attributes>
 </scheme>
